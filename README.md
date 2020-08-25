@@ -1,4 +1,4 @@
-# kate
+# kate-test
 
 ## Project setup
 ```
