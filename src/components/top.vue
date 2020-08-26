@@ -14,11 +14,21 @@
         <div class="top_translate">
           <ul>
             <el-breadcrumb separator-class="el-icon-caret-right">
-              <el-breadcrumb-item>日本語</el-breadcrumb-item>
-              <el-breadcrumb-item>English</el-breadcrumb-item>
-              <el-breadcrumb-item>繁體中文</el-breadcrumb-item>
-              <el-breadcrumb-item>簡体中文</el-breadcrumb-item>
-              <el-breadcrumb-item>한국어</el-breadcrumb-item>
+              <el-breadcrumb-item>
+                <router-link to="/">日本語</router-link>
+              </el-breadcrumb-item>
+              <el-breadcrumb-item>
+                <router-link to="/">English</router-link>
+              </el-breadcrumb-item>
+              <el-breadcrumb-item>
+                <router-link to="/">繁體中文</router-link>
+              </el-breadcrumb-item>
+              <el-breadcrumb-item>
+                <router-link to="/">簡体中文</router-link>
+              </el-breadcrumb-item>
+              <el-breadcrumb-item>
+                <router-link to="/">한국어</router-link>
+              </el-breadcrumb-item>
             </el-breadcrumb>
             <!-- <li>> 日本語</li>
           <li>> English</li>
@@ -58,7 +68,7 @@
                   <img src="../assets/images/2 (1).png" alt="首页" title="首页">
                 </div>
                 <div>
-                  <router-link to="/" class="nav_title">时刻表・车费</router-link>
+                  <router-link to="/" class="nav_title">時刻表・運賃</router-link>
                 </div>
               </div>
 
@@ -68,7 +78,7 @@
                   <img src="../assets/images/3 (1).png" alt="首页" title="首页">
                 </div>
                 <div>
-                  <router-link to="/" class="nav_title">乘车处指南</router-link>
+                  <router-link to="/" class="nav_title">のりば案内</router-link>
                 </div>
               </div>
 
@@ -98,7 +108,7 @@
                   <img src="../assets/images/6 (1).png" alt="首页" title="首页">
                 </div>
                 <div>
-                  <router-link to="/" class="nav_title">乘车说明</router-link>
+                  <router-link to="/" class="nav_title">ご利用案内</router-link>
                 </div>
               </div>
 
@@ -108,7 +118,7 @@
                   <img src="../assets/images/7 (1).png" alt="首页" title="首页">
                 </div>
                 <!-- <div> -->
-                <router-link to="/" class="nav_title">常见问题</router-link>
+                <router-link to="/" class="nav_title">よくあるご質問</router-link>
                 <!-- </div> -->
               </div>
 
@@ -161,7 +171,7 @@
     line-height: 15px;
   }
 
-  /deep/ .el-breadcrumb__item:last-child .el-breadcrumb__inner {
+  /deep/ .el-breadcrumb__item:last-child .el-breadcrumb__inner a {
     font-size: 9px;
     font-family: Taipei Sans TC Beta;
     font-weight: 400;
@@ -217,6 +227,10 @@
     width: 15%;
     /* border: 1px solid gold; */
     text-align: center;
+  }
+
+  .nav_box_nav a:hover {
+    color: #67d0ef;
   }
 
   .nav_img {

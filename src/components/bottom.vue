@@ -20,19 +20,22 @@
                             <div class="add">本社及临空营业所 〒598-0048 大阪府泉佐野市临空往来 北2番地12</div>
                             <ul>
                                 <li>
-                                    <a href="/">> 日本語</a>
+                                    <!-- <a href="/">> 日本語</a> -->
+                                    <router-link to="/">> 日本語</router-link>
                                 </li>
                                 <li>
-                                    <a href="/">> English</a>
+                                    <!-- <a href="/">> English</a> -->
+                                    <router-link to="/">> English</router-link>
                                 </li>
                                 <li>
-                                    <a href="/">> 繁體中文</a>
+                                    <!-- <a href="/">> 繁體中文</a> -->
+                                    <router-link to="/">> 繁體中文</router-link>
                                 </li>
                                 <li>
-                                    <a href="/">> 簡体中文</a>
+                                    <router-link to="/">> 简体中文</router-link>
                                 </li>
                                 <li>
-                                    <a href="/">> 한국어</a>
+                                    <router-link to="/">> 한국어</router-link>
                                 </li>
                             </ul>
                         </div>
@@ -49,26 +52,26 @@
                                     <img src="@/assets/images/arrow04.png" alt="/">
                                 </div>
                                 <!-- <div>时刻表・车费</div> -->
-                                <a href="/">时刻表・车费</a>
+                                <a href="/">時刻表・運賃</a>
                             </div>
                             <dl>
                                 <dd>
-                                    <a href="/">> 大阪站前（梅田）</a>
+                                    <a href="/">> 大阪駅前(梅田)</a>
                                 </dd>
                             </dl>
                             <dl>
                                 <dd>
-                                    <a href="/">> 近铁上本町・心斋桥</a>
+                                    <a href="/">> 近鉄上本町・心斎橋</a>
                                 </dd>
                             </dl>
                             <dl>
                                 <dd>
-                                    <a href="/">> 南港・天保山・日本环球影城</a>
+                                    <a href="/">> 南港・天保山・ユニバーサル・スタジオ・ジャパン™</a>
                                 </dd>
                             </dl>
                             <dl>
                                 <dd>
-                                    <a href="/">> 神户</a>
+                                    <a href="/">> 神戸</a>
                                 </dd>
                             </dl>
                             <dl>
@@ -83,7 +86,7 @@
                             </dl>
                             <dl>
                                 <dd>
-                                    <a href="/">> 通过路线一览查找</a>
+                                    <a href="/">> 路線一覧からさがす</a>
                                 </dd>
                             </dl>
                         </div>
@@ -93,58 +96,58 @@
                                     <img src="@/assets/images/arrow04.png" alt="/">
                                 </div>
                                 <!-- <div>乘车处指南</div> -->
-                                <a href="/">乘车处指南</a>
+                                <a href="/">のりば案内</a>
                             </div>
                             <div class="arrow">
                                 <div>
                                     <img src="@/assets/images/arrow04.png" alt="/">
                                 </div>
                                 <!-- <div>乘车说明</div> -->
-                                <a href="/">乘车说明</a>
+                                <a href="/">ご利用案内</a>
                             </div>
                             <dl>
                                 <dd>
-                                    <a href="/">> 使用时的注意事项</a>
+                                    <a href="/">> ご利用時のおねがい</a>
                                 </dd>
                             </dl>
                             <dl>
                                 <dd>
-                                    <a href="/">> 购买车票</a>
+                                    <a href="/">> 乗車券について</a>
                                 </dd>
                             </dl>
                             <dl>
                                 <dd>
-                                    <a href="/">> 关于预约</a>
+                                    <a href="/">> ご予約について</a>
                                 </dd>
                             </dl>
                             <dl>
                                 <dd>
-                                    <a href="/">> 关于无现金支付</a>
+                                    <a href="/">> キャッシュレス決済について</a>
                                 </dd>
                             </dl>
                             <dl>
                                 <dd>
-                                    <a href="/">> 关于退票</a>
+                                    <a href="/">> 乗車券の払戻しについて</a>
                                 </dd>
                             </dl>
                             <dl>
                                 <dd>
-                                    <a href="/">> 寄放随身物品</a>
+                                    <a href="/">> 乗車券の払戻しについて</a>
                                 </dd>
                             </dl>
                             <dl>
                                 <dd>
-                                    <a href="/">> 行动不便的旅客</a>
+                                    <a href="/">> お体の不自由なお客さまへ</a>
                                 </dd>
                             </dl>
                             <dl>
                                 <dd>
-                                    <a href="/">> 携带宠物的旅客</a>
+                                    <a href="/">> ペットをお連れのお客さまへ</a>
                                 </dd>
                             </dl>
                             <dl>
                                 <dd>
-                                    <a href="/">> 关于车内文明</a>
+                                    <a href="/">> 車内でのマナーについて</a>
                                 </dd>
                             </dl>
                         </div>
@@ -156,35 +159,35 @@
                                         <img src="@/assets/images/arrow04.png" alt="/">
                                     </div>
                                     <!-- <div>常见问题</div> -->
-                                    <a href="/">常见问题</a>
+                                    <a href="/">よくあるご質問</a>
                                 </div>
                                 <div class="arrow">
                                     <div>
                                         <img src="@/assets/images/arrow04.png" alt="/">
                                     </div>
                                     <!-- <div>BESTCHOICE！KIX机场巴士</div> -->
-                                    <a href="/">BESTCHOICE！KIX机场巴士</a>
+                                    <a href="/">BEST CHOICE！KIXリムジンバス</a>
                                 </div>
                                 <div class="arrow">
                                     <div>
                                         <img src="@/assets/images/arrow04.png" alt="/">
                                     </div>
                                     <!-- <div>包租巴士</div> -->
-                                    <a href="/">包租巴士</a>
+                                    <a href="/">関西空港のりば案内</a>
                                 </div>
                                 <div class="arrow">
                                     <div>
                                         <img src="@/assets/images/arrow04.png" alt="/">
                                     </div>
                                     <!-- <div>关西机场乘车处指南</div> -->
-                                    <a href="/">关西机场乘车处指南</a>
+                                    <a href="/">採用情報</a>
                                 </div>
                                 <div class="arrow">
                                     <div>
                                         <img src="@/assets/images/arrow04.png" alt="/">
                                     </div>
                                     <!-- <div>信息咨询・失物招领</div> -->
-                                    <a href="/">信息咨询・失物招领</a>
+                                    <a href="/">お問合わせ・お忘れもの</a>
                                 </div>
                             </div>
                         </div>
